@@ -1,0 +1,4 @@
+schema {
+    query: CardQueries
+    mutation: CardMutations
+}

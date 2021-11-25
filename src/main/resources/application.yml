@@ -1,0 +1,16 @@
+server:
+  port: 9090
+
+graphql:
+  servlet:
+    mapping: /trello
+    enabled: true
+    corsEnabled: true
+
+trello:
+  key:
+  token:
+  board:
+  list:
+    to-do:
+    other:

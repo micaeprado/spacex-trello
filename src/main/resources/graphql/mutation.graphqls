@@ -1,0 +1,15 @@
+type CardMutations {
+    # Create an issue card
+    createIssue(input: CreateIssueInput!): Card!
+
+     # Create a bug card
+    createBug(input: CreateBugInput!): Card!
+
+     # Create a task card
+    createTask(input: CreateTaskInput!): Card!
+}
+
+
+
+
+

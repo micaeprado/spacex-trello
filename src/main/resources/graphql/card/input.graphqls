@@ -1,0 +1,13 @@
+input CreateIssueInput {
+    title: String!
+    description: String!
+}
+
+input CreateBugInput {
+    description: String!
+}
+
+input CreateTaskInput {
+    title: String!
+    category: CategoryEnum!
+}
